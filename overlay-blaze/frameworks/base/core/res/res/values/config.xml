@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+  
+    <!-- Whether device supports in-display fingerprint -->
+    <bool name="config_supportsUdfps">true</bool>
+    
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
+
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">false</bool>
+
+    <!-- Whether devices suports in-display fingerprint when screen is off -->
+    <bool name="config_supportScreenOffUdfps">true</bool>
+       
+    <!-- Whether device has SuperDart charging support -->
+    <bool name="config_hasSuperDartCharger">true</bool>
+
+    <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/oplus_chg/battery/fast_charge</string>
+</resources>
